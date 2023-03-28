@@ -1,0 +1,120 @@
+body {
+    background-image: url("library2.jpg");
+    background-size: cover;
+    width: 100%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  .form-container {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-position: center;
+    filter: blur(3px);
+    padding: 20px;
+  }
+  
+  .card {
+    background-color: transparent;
+    border: none;
+  }
+  
+  .card-header {
+    background-color: transparent;
+    border-bottom: none;
+    color: white;
+    letter-spacing: 1px;
+  }
+  
+  .card-body {
+    background-color: rgba(16, 16, 16, 0.8);
+    border-radius: 15px;
+    border: none;
+    padding: 40px;
+  }
+  
+  .form-group label {
+    color: whitesmoke;
+    border: none;
+  }
+  
+  .form-control {
+    background-color: transparent;
+    color: whitesmoke;
+    border: none;
+    border-radius: 0;
+    border-bottom: 2px solid #F0D4A0;
+  }
+  
+  .form-control:focus {
+    background-color: transparent;
+    color: white;
+    border-bottom: 2px solid #F0D4A0;
+    box-shadow:none;
+    border-color: #F0D4A0;
+  }
+  .form-control::placeholder {
+    color: white;
+    font-size: 15px;
+  }
+  .btn {
+    background-color: black;
+    color: white;
+    border: none;
+  }
+  
+  .btn:hover {
+    background-color: #F0D4A0;
+    color:black;
+    font-weight: 700;
+  }
+
+  .btnrow{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .accrow{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .button{
+    letter-spacing: 1px;
+    border-radius: 20px;
+    color: whitesmoke;
+    font-weight: 700;
+    background-color: black;
+  }
+  button:active {
+    background-color: unset !important;
+    border-color: unset !important;
+  }
+  a{
+    color: white;
+    
+  }
+
+  a:hover{
+    text-decoration: none;
+    color: #F0D4A0;
+  }
+
+  .message{
+    font-size: 20px;
+    color: red;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 10%;
+    border-radius: 20px;
+  }
+
+
+
+  @media (max-width: 767px) {
+    .message{
+        width: 100%;
+    }
+  }
